@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ScrubCare</title>
+  </head>
+  <body>
+    <header class="primary-header bg-lightPink fs-nav">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo fw-bold">
+            <a class="text-gray" href="index.html">ScrubCare</a>
+          </div>
+
+          <button
+            aria-expanded="false"
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+          >
+            <img class="menu-icon" src="./images/bars-solid.svg" alt="menu" />
+          </button>
+
+          <nav
+            id="primary-navigation"
+            class="primary-navigation"
+            data-visible="false"
+          >
+            <ul role="list" class="nav-links-list">
+              <li><a class="nav-link" href="./index.html">Home</a></li>
+              <li><a class="nav-link" href="#about-section">About us</a></li>
+              <li><a class="nav-link" href="#why-us">Why Us</a></li>
+              <li><a class="nav-link" href="#our-products">Scrubs</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+              <li>
+                <a href=""
+                  ><img
+                    class="shopping-bag"
+                    src="./images/bag-shopping-solid.svg"
+                    alt="shopping-bag"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="home" class="bg-lightPink">
+      <div class="container">
+        <div class="even-col">
+          <div class="chalk-text">
+            <h1 class="fs-primary-heading ff-chalk text-blue">
+              I will take care of you!
+            </h1>
+            <button role="button" class="buy-btn fs-btn fw-semibold">
+              Buy Now
+            </button>
+          </div>
+          <img
+            class="main-product-img"
+            src="/images/watermelon-scrub.png"
+            alt="watermelon scrub product"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about-section" class="bg-pink">
+      <div class="container --padding-bottom">
+        <h1 class="text-center fs-primary-heading text-gray padding-block-800">
+          About Us
+        </h1>
+        <div class="even-col">
+          <img
+            class="about-model-img"
+            src="./images/we-will-take-care-of-you.png"
+            alt="we will take care of you -  brand image"
+          />
+          <div class="about-us-content text-gray">
+            <p class="fs-paragraph">Hey girls!</p>
+            <p class="fs-paragraph">
+              We are Mila, Lina, and Alina. We have been friends for more then
+              15 years. We are all Chemists and recenly we came up with this
+              ScrubCare brand idea for we are able to make home-made scrubs with
+              the perfect formula. The pleasant aroma and nourishment our scrub
+              gives your skin will blow your mind after the first use!
+            </p>
+            <br />
+            <h1 class="fs-secondary-heading fw-semibold">
+              Try it, and ScrubCare will take care of your skin!
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-lightPink" id="why-us">
+      <div class="container">
+        <h1 class="text-center fs-primary-heading text-gray padding-block-800">
+          Why Us
+        </h1>
+        <div class="even-col">
+          <div class="whyUs-content">
+            <h1 class="fs-primary-heading text-gray ff-chalk">
+              Quality matters!
+            </h1>
+            <p class="fs-paragraph">We will meet your expectations.</p>
+            <button class="buy-btn">Try Our Products</button>
+          </div>
+          <img src="./images/BareBae-scrubs-collection.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- carousel -->
+    <section class="bg-pink" id="our-products">
+      <div class="container">
+        <h1 class="text-center fs-primary-heading text-gray padding-block-800">
+          Our Products
+        </h1>
+        <div class="carousel">
+          <div class="carousel__track-container">
+            <button class="carousel__btn carousel__btn--left">
+              <img
+                class="carousel__img"
+                class="carousel__img"
+                src="./images/arrow-left-solid.svg"
+                alt=""
+              />
+            </button>
+            <ul role="list" class="carousel__track">
+              <li class="carousel__slide">
+                <img
+                  class="carousel__img"
+                  src="./images/coffee-scrub.png"
+                  alt=""
+                />
+                <h3
+                  class="fs-secondary-heading text-gray text-center carousel__text"
+                >
+                  Coffee Scrub
+                </h3>
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__img"
+                  src="./images/watermelon-scrub.png"
+                  alt=""
+                />
+                <h3
+                  class="fs-secondary-heading text-gray text-center carousel__text"
+                >
+                  Watermelon Scrub
+                </h3>
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__img"
+                  src="./images/coconut-scrub.png"
+                  alt=""
+                />
+                <h3
+                  class="fs-secondary-heading text-gray text-center carousel__text"
+                >
+                  Coconut Scrub
+                </h3>
+              </li>
+              <li class="carousel__slide">
+                <img
+                  class="carousel__img"
+                  src="./images/Frangipani.png"
+                  alt=""
+                />
+                <h3
+                  class="fs-secondary-heading text-gray text-center carousel__text"
+                >
+                  Frangipani Scrub
+                </h3>
+              </li>
+              <li class="carousel__slide hidden-sm">
+                <img
+                  class="carousel__img"
+                  src="./images/vanilla-lush-scrub.png"
+                  alt=""
+                />
+                <h3
+                  class="fs-secondary-heading text-gray text-center carousel__text"
+                >
+                  Vanilla Scrub
+                </h3>
+              </li>
+              <li class="carousel__slide hidden-sm">
+                <img
+                  class="carousel__img"
+                  src="./images/Glow-face-serum.png"
+                  alt=""
+                />
+                <h3
+                  class="fs-secondary-heading text-gray text-center carousel__text"
+                >
+                  Face Glow Serum
+                </h3>
+              </li>
+            </ul>
+            <button class="carousel__btn carousel__btn--right">
+              <img src="./images/arrow-right-solid.svg" alt="" />
+            </button>
+
+            <!-- carousel navigation -->
+            <div class="carousel__nav">
+              <button class="carousel__indicator current-slide"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+              <button class="carousel__indicator"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section bg-lightPink" id="contact">
+      <div class="container">
+        <h1 class="text-center fs-primary-heading text-gray padding-block-800">
+          Contact
+        </h1>
+        <ul role="list" class="text-gray fs-paragraph fw-light contact-list">
+          <li>
+            <img
+              class="contact-icon"
+              src="./images/location-dot-solid.svg"
+              alt=""
+            />
+            La Jolla Village Dr, La Jolla, CA 92037, USA
+          </li>
+          <li>
+            <img class="contact-icon" src="./images/phone-solid.svg" alt="" />
+            954-391-8288
+          </li>
+          <li>
+            <img
+              class="contact-icon"
+              src="./images/envelope-solid.svg"
+              alt=""
+            />
+            scrubCare@gmail.com
+          </li>
+        </ul>
+        <ul role="list" class="contact__social-media">
+          <li class="social-media-icon">
+            <a href=""><img src="./images/facebook.svg" alt="" /></a>
+          </li>
+          <li class="social-media-icon">
+            <a href=""><img src="./images/instagram.svg" alt="" /></a>
+          </li>
+          <li class="social-media-icon">
+            <a href=""><img src="./images/youtube.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="bg-brown">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="text-lightPink">
+            <div class="logo fw-bold">
+              <a class="text-lightPink" href="index.html">ScrubCare</a>
+            </div>
+            <div class="copyright text-body">&#169;2023 scrubcare.co</div>
+          </div>
+          <ul role="list" class="nav-links-footer fs-nav">
+            <li><a class="text-lightPink" href="#home">Home</a></li>
+
+            <li><a class="text-lightPink" href="#our-products">Scrubs</a></li>
+            <li><a class="text-lightPink" href="#contact">Contact</a></li>
+            <li>
+              <a class="text-lightPink" href="#about-section">About us</a>
+            </li>
+          </ul>
+          <ul role="list" class="footer__social-media">
+            <li class="social-media-icon">
+              <a href=""><img src="./images/facebook-footer.svg" alt="" /></a>
+            </li>
+            <li class="social-media-icon">
+              <a href=""><img src="./images/instagram-footer.svg" alt="" /></a>
+            </li>
+            <li class="social-media-icon">
+              <a href=""><img src="./images/youtube-footer.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/7947351a45.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
